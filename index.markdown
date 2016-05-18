@@ -11,3 +11,4 @@ images:
 - small_image: "/uploads/home3.jpg"
   large_image: "/uploads/home3@2x.jpg"
 ---
+
