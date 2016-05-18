@@ -1,5 +1,6 @@
 ---
 title: Contact
+position: 0
 ---
 
 <div class="content container">

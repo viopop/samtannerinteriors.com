@@ -1,5 +1,6 @@
 ---
 title: Home
+position: 1
 home: true
 main_images:
 - small_image: "/uploads/home1.jpg"
