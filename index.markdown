@@ -2,7 +2,7 @@
 title: Home
 position: 0
 layout: home
-hide_in_nav: true
+hidden: true
 images:
 - small_image: "/uploads/home1.jpg"
   large_image: "/uploads/home1@2x.jpg"
@@ -11,4 +11,3 @@ images:
 - small_image: "/uploads/home3.jpg"
   large_image: "/uploads/home3@2x.jpg"
 ---
-
