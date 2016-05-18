@@ -1,0 +1,13 @@
+<nav role="navigation">
+  <ul class="list-unstyled list-inline">
+    {% for page in site.pages %}
+      {% if page.slug != "home" %}
+        <li>
+          <a href="{{ page.url }}"{% if page.slug == slug %} class="active"{% endif %}>
+            {{ page.nav_title | fallback:page.title }}
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</nav>
