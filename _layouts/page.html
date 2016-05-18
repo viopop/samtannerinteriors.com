@@ -13,7 +13,7 @@
     </title>
     <script src="/assets/javascripts/public.js" type="text/javascript" charset="utf-8"></script>
     <link rel="stylesheet" type="text/css" href="/assets/stylesheets/public.css">
-    {% if page.home %}
+    {% if page.layout == "home" %}
       <link rel="stylesheet" type="text/css" href="/assets/stylesheets/home.css">
     {% endif %}
   </head>
@@ -21,7 +21,7 @@
     <a id="top"></a>
     <div id="page" class="page big-slide-push clearfix">
       <header class="page clearfix">
-        {% if page.home %}
+        {% if page.layout == "home" %}
           {% include header-home.html %}
         {% else %}
           {% include header.html %}

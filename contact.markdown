@@ -1,47 +1,15 @@
 ---
 title: Contact
 position: 1
+layout: contact
+images:
+  left_image: "/uploads/contact1.jpg"
+  bottom_image: "/uploads/contact2.jpg"
 ---
 
-<div class="content container">
-  <div class="row contact-body clearfix">
-    <section class="side left-side col col-sm-8">
-      <div class="left-image col col-sm-6 hidden-xs">
-        <img src="{{ assets | where:"meta.location","left" }}" class="img-responsive">
-      </div>
-      <div class="contact-info col col-sm-6">
-        {{body}}
-        <hr>
-        <div class="contact-logos">
-          <img src="/assets/images/asid-logo.png" width="80">
-        </div>
-      </div>
-      <div class="bottom-image col col-sm-12 hidden-xs">
-        <img src="{{ assets | where:"meta.location","bottom" }}" class="img-responsive">
-      </div>
-    </section>
-    <section class="side right-side col col-sm-4">
-      <form action="//formspree.io/sam@samtannerinteriors.com" method="POST" class="clearfix">
-        <div class="form-group">
-          <input class="form-control" id="form-name" type="text" name="name" placeholder="Name">
-        </div>
-        <div class="form-group">
-          <input class="form-control" id="form-email" type="email" name="_replyto" placeholder="Email">
-        </div>
-        <div class="form-group">
-          <input class="form-control" id="form-phone" type="phone" name="phone" placeholder="Phone">
-        </div>
-        <div class="form-group">
-          <input class="form-control" id="form-location" type="text" name="location" placeholder="Project Location">
-        </div>
-        <div class="form-group">
-          <textarea class="form-control" id="form-message" name="message" placeholder="Message"></textarea>
-        </div>
-        <input type="text" name="_gotcha" style="display:none">
-        <input type="hidden" name="_subject" value="SAM TANNER INTERIORS: New message from website...">
-        <input type="hidden" name="_next" value="//samtannerinteriors.com/thanks" />
-        <button type="submit" class="btn btn-default">Send</button>
-      </form>
-    </section>
-  </div>
-</div>
+## Contact
+
+### Let's Create Something Together
+
+[sam@samtannerinteriors.com](mailto:sam@samtannerinteriors.com)  
+[949.680.6385](tel:9496806385)
