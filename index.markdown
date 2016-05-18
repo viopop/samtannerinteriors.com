@@ -1,6 +1,9 @@
 ---
 title: Home
 home: true
+main_images:
+- small_image: "/uploads/home1.jpg"
+  large_image: "/uploads/home1@2x.jpg"
 ---
 
 <div class="content content-home clearfix">
