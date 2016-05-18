@@ -1,7 +1,7 @@
 ---
 title: Contact
-layout: contact
 position: 4
+layout: contact
 images:
   left_image: "/uploads/contact1.jpg"
   bottom_image: "/uploads/contact2.jpg"

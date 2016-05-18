@@ -1,7 +1,7 @@
 ---
 title: Info
-layout: content
 position: 3
+layout: content
 ---
 
 ## About the Firm

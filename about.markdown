@@ -1,7 +1,7 @@
 ---
 title: About
-layout: content
 position: 2
+layout: content
 ---
 
 ## About Sam
