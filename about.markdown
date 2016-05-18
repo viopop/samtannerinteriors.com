@@ -1,7 +1,6 @@
 ---
 title: About
 position: 2
-layout: about
 images:
   row1_col1_image: "/uploads/about_row1_col1.jpg"
   row1_col2_image: "/uploads/about_row1_col2.jpg"
@@ -29,5 +28,6 @@ text:
     the everyday: frequent splashes in the pool, Jeff''s wizardry in the kitchen,
     tinkering with house projects (ground zero test site), paddle boarding the canals,
     and scheming ways to create beauty in the world.'
+layout: about
 ---
 
