@@ -24,8 +24,8 @@ main_images:
     resizeMainImage();
     $(window).resize(resizeMainImage);
     $(".main-image").backstretch([
-      {% for asset in page.assets %}
-        "{{asset.url}}",
+      {% for asset in page.main_images %}
+        "{{asset.small_image}}",
       {% endfor %}
     ], {duration: 5000, fade: 1000});
   });

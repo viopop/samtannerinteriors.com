@@ -1,13 +1,14 @@
 <nav role="navigation">
   <ul class="list-unstyled list-inline">
-    {% for page in site.pages %}
-      {% if page.slug != "home" %}
+    {% assign site_pages = site.pages %}
+    {% for site_page in site_pages %}
+      {% unless site_page.hide_in_nav %}
         <li>
-          <a href="{{ page.url }}"{% if page.slug == slug %} class="active"{% endif %}>
-            {{ page.nav_title | fallback:page.title }}
+          <a href="{{ site_page.url | prepend: site.baseurl }}"{% if site_page.slug == page.slug %} class="active"{% endif %}>
+            {{ site_page.nav_title | default:site_page.title }}
           </a>
         </li>
-      {% endif %}
+      {% endunless %}
     {% endfor %}
   </ul>
 </nav>
