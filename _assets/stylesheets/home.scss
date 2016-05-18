@@ -8,7 +8,7 @@ header.page {
 .content-home {
   margin-top: 20px;
   .main-image { min-height: 500px; background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; }
-  .logo-home { width: 500px; text-shadow: black 1px 1px 4px; }
+  .logo-home { width: 500px; }
 }
 @media #{$xs} {
   .content-home { margin-top: 0; }
