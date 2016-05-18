@@ -1,6 +1,6 @@
 <nav role="navigation">
   <ul class="list-unstyled list-inline">
-    {% assign site_pages = site.pages %}
+    {% assign site_pages = site.pages | sort:'position' %}
     {% for site_page in site_pages %}
       {% unless site_page.hide_in_nav %}
         <li>
