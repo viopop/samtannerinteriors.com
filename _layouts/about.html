@@ -10,12 +10,12 @@ layout: page
       </div>
       <div>
         <h3>About Sam</h3>
-        {{ page.text.col1_text }}
+        {{ page.text.col1_text | markdownify }}
       </div>
     </div>
     <div class="col-sm-4">
       <div>
-        {{ page.text.col2_text }}
+        {{ page.text.col2_text | markdownify }}
       </div>
       <div class="col-image">
         <img src="{{ page.images.row1_col2_image }}" class="img-responsive">
@@ -26,7 +26,7 @@ layout: page
         <img src="{{ page.images.row1_col3_image }}" class="img-responsive">
       </div>
       <div>
-        {{ page.text.col3_text }}
+        {{ page.text.col3_text | markdownify }}
       </div>
     </div>
   </div>
