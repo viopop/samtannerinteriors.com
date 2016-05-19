@@ -1,6 +1,5 @@
 ---
 title: Thanks
-published: false
 position: 5
 hidden: true
 layout: content
