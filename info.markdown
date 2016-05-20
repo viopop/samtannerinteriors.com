@@ -7,31 +7,40 @@ images:
 process:
   consultation:
     title: Initial Consultation
-    description: We'll talk about project scope, budget and timeline, and review any inspirational imagery you've collected.
+    description: We'll talk about project scope, budget and timeline, and review any
+      inspirational imagery you've collected.
   design:
     title: Design Concept
-    description: Narrow down architectural style and pull together a mood board to serve as the design guide. Collaborate with the architect, contractor and landscape designer to shape the bones of.
+    description: Narrow down architectural style and pull together a mood board to
+      serve as the design guide. Collaborate with the architect, contractor and landscape
+      designer to shape the bones of.
   drawings:
     title: Drawings & More Drawings
-    description: We'll perfect floorplans, draft construction documents in AutoCAD, sketch customized details, and create hand or computer renderings to illustrate and communicate all the design ideas.
+    description: We'll perfect floorplans, draft construction documents in AutoCAD,
+      sketch customized details, and create hand or computer renderings to illustrate
+      and communicate all the design ideas.
   selections:
     title: Selections
-    description: Interior and exterior. Architectural elements, finishes and materials. Everything from flooring, tile, plumbing, lighting, furnishings, area rugs, wallcoverings---we source it all and bring the best of.
+    description: Interior and exterior. Architectural elements, finishes and materials.
+      Everything from flooring, tile, plumbing, lighting, furnishings, area rugs,
+      wallcoverings---we source it all and bring the best of.
   ordering:
     title: Ordering
-    description: It's trigger-pulling time! aka lots of detailed paperwork so you can review and approve every last detail.
+    description: It's trigger-pulling time! aka lots of detailed paperwork so you
+      can review and approve every last detail.
   installation:
     title: Installation
-    description: Once construction is complete, our team handles everything from installing draperies to hanging artwork, placing area rugs, and styling accessories.
+    description: Once construction is complete, our team handles everything from installing
+      draperies to hanging artwork, placing area rugs, and styling accessories.
 services:
-  - title: High End Residential Design
-    description: New Construction to Remodels to Room Makeovers
-  - title: Spaceplanning & Drawings
-    description: AutoCAD, SketchUp, & Hand Renderings
-  - title: Interior Fixtures & Furnishings
-  - title: Commercial Design
-    description: Offices & Hospitality
-  - title: Architectural Detailing
+- title: High End Residential Design
+  description: New Construction to Remodels to Room Makeovers
+- title: Spaceplanning & Drawings
+  description: AutoCAD, SketchUp, & Hand Renderings
+- title: Interior Fixtures & Furnishings
+- title: Commercial Design
+  description: Offices & Hospitality
+- title: Architectural Detailing
 layout: info
 ---
 
