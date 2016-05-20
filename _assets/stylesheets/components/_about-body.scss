@@ -1,9 +1,4 @@
 .about-body {
-  .col-image { display: block; width: 100%; height: 100px; background-size: cover; background-position: 50% 50%; }
-  .col-text {
-    padding: 20px; text-align: center; font-size: 1.3rem; color: $charcoal;
-    h3 { font-size: 2rem; margin: 0; margin-bottom: 5px; font-family: $cormorant-font; }
-  }
   .row:first-child { margin-bottom: 8px; }
   .row1 {
     .col1 .col-image { height: 307px; }

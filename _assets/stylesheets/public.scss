@@ -1,6 +1,9 @@
 @import "base";
 @import "components/about-body";
+@import "components/col-image";
+@import "components/col-text";
 @import "components/contact-body";
+@import "components/info-body";
 
 h1, h2, h3, h4, h5, h6 { color: $headline-color; font-family: $headline-font; }
 a {
