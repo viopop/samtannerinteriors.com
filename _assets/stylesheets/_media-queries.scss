@@ -1,5 +1,5 @@
-$xs: "(max-width: 767px)";
-$sm: "(min-width: 768px) and (max-width: 991px)";
+$xs: "(max-width: #{$screen-sm-min - 1})";
+$sm: "(min-width: #{$screen-sm-min}) and (max-width: 991px)";
 $md: "(min-width: 992px) and (max-width: 1199px)";
 $xs-sm: "(max-width: 991px)";
 $xs-md: "(max-width: 1199px)";

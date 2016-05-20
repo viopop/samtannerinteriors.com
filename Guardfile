@@ -9,11 +9,8 @@ end
 guard :sass, output: 'assets/stylesheets',
              style: :compressed,
              all_on_start: true,
-             load_paths: ['_assets/components'] do
-  watch('_assets/stylesheets/public.scss')
-  watch('_assets/stylesheets/sticky-footer.scss')
-  watch('_assets/stylesheets/sticky-footer-ie.scss')
-  watch('_assets/stylesheets/home.scss')
+             load_paths: ['_assets/components', '_assets/stylesheets'] do
+  watch(%r{_assets/stylesheets/(.+)\.scss$})
 end
 
 guard :sprockets, destination: 'assets/javascripts',
