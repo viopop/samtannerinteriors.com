@@ -1,0 +1,23 @@
+---
+layout: page
+---
+
+<div class="container content portfolio-body">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="slick-btn slick-prev-btn"><i class="fa fa-chevron-left"></i></div>
+      <div class="slick-btn slick-next-btn"><i class="fa fa-chevron-right"></i></div>
+      <div class="slick-portfolio">
+        {% for project in site.projects %}
+          {% for image in project.images %}
+            <div class="portfolio-img" style="background-image: url('{{ image }}')">
+              <div class="portfolio-desc">
+                {{ project.title }} &mdash; {{ project.category }} &mdash; {{ project.month }} {{ project.year }}
+              </div>
+            </div>
+          {% endfor %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

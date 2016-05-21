@@ -5,6 +5,7 @@
 //= require vendor/jquery.backstretch
 //= require vendor/jquery.equalheights
 //= require vendor/jquery.imagesloaded
+//= require slick-carousel/slick/slick
 
 $(function() {
   $('.big-slide-link').bigSlide({
@@ -12,4 +13,11 @@ $(function() {
     push: ".big-slide-push",
     side: "right",
     easyClose: true});
+
+  $(".slick-portfolio").slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    prevArrow: ".slick-prev-btn",
+    nextArrow: ".slick-next-btn"
+  });
 });

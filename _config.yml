@@ -2,8 +2,8 @@
 title: Sam Tanner Interiors
 timezone: UTC
 collections:
-  portfolio:
-    title: Portfolio
+  projects:
+    title: Projects
     output: true
   posts:
     title: Posts

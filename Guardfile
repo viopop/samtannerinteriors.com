@@ -6,6 +6,14 @@ guard :copy, from: '_assets/images',
   watch(%r{^_assets/images/.+$})
 end
 
+guard :copy, from: '_assets/components/slick-carousel/slick/ajax-loader.gif',
+             to: 'assets/images',
+             mkpath: true,
+             delete: true,
+             run_at_start: true do
+  watch(%r{^_assets/components/slick-carousel/slick/ajax-loader.gif$})
+end
+
 guard :sass, output: 'assets/stylesheets',
              style: :compressed,
              all_on_start: true,
@@ -34,6 +42,14 @@ guard :copy, from: '_assets/components/font-awesome/fonts',
              delete: true,
              run_at_start: true do
   watch(%r{^_assets/components/font-awesome/fonts/.+$})
+end
+
+guard :copy, from: '_assets/components/slick-carousel/slick/fonts',
+             to: 'assets/fonts',
+             mkpath: true,
+             delete: true,
+             run_at_start: true do
+  watch(%r{^_assets/components/slick-carousel/slick/fonts/.+$})
 end
 
 guard :livereload do

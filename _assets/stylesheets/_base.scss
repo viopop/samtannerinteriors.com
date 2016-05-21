@@ -6,6 +6,12 @@ $screen-sm-min: 600px;
 $fa-font-path: "/assets/fonts";
 @import "font-awesome/css/font-awesome";
 
+$slick-arrow-color: #fff;
+$slick-loader-path: "/assets/images/";
+$slick-font-path: "/assets/fonts/";
+@import "slick-carousel/slick/slick.scss";
+@import "slick-carousel/slick/slick-theme.scss";
+
 @import "media-queries";
 @import "functions";
 @import "colors";
