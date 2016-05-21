@@ -1,11 +1,8 @@
 ---
 title: Province West
-categories:
-- Commercial
+category: Commercial
 year: 2015
 month: April
 images:
 - "/uploads/project1_1.jpg"
-category: Commercial
 ---
-
