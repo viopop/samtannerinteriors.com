@@ -5,7 +5,7 @@
     .portfolio-desc { position: absolute; bottom: 0; padding: 10px 0; width: 100%; text-align: center; background-color: $light-cream; font-family: $cormorant-font; }
   }
   .slick-btn {
-    position: absolute; font-size: 5rem; color: white; z-index: 100; top: 50%; cursor: pointer; opacity: 0.5;
+    position: absolute; font-size: 5rem; color: white; z-index: 100; top: 50%; margin-top: -35px; cursor: pointer; opacity: 0.5;
     &:hover { opacity: 1; }
   }
   .slick-prev-btn { left: 10px; }

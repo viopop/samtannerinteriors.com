@@ -6,7 +6,7 @@ guard :copy, from: '_assets/images',
   watch(%r{^_assets/images/.+$})
 end
 
-guard :copy, from: '_assets/components/slick-carousel/slick/ajax-loader.gif',
+guard :copy, from: '_assets/components/slick-carousel/slick',
              to: 'assets/images',
              mkpath: true,
              delete: true,
