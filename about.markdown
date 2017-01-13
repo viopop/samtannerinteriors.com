@@ -1,5 +1,6 @@
 ---
 title: About
+published: false
 position: 2
 images:
   row1_col1_image: "/uploads/about_row1_col1.jpg"
