@@ -1,0 +1,37 @@
+.contact-body {
+  > .left-side {
+    > .contact-info {
+      text-align: center;
+      h2 { font-family: $cormorant-font; font-size: 1.6em; }
+      h3 { font-size: 1.2em; }
+      hr { width: 20%; margin: 20px auto; border-color: #333; }
+    }
+    > .bottom-image { margin-top: 5px; }
+  }
+  > .right-side {
+    background-color: rgb(249, 249, 246); padding: 25px;
+    input, textarea { @include border-radius(0px); @include box-shadow(none); border-width: 0 0 1px; padding-left: 0; padding-right: 0; background: none; }
+    button { @include box-shadow(none); @include border-radius(0px); border-width: 0 0 1px; background: none; float: right; }
+  }
+}
+
+@media #{$xs} {
+  .contact-body {
+    > .right-side { margin-top: 20px; }
+  }
+}
+@media #{$sm} {
+  .contact-body {
+    > .right-side { height: 395px; }
+  }
+}
+@media #{$md} {
+  .contact-body {
+    > .right-side { height: 517px; }
+  }
+}
+@media #{$lg} {
+  .contact-body {
+    > .right-side { height: 627px; }
+  }
+}

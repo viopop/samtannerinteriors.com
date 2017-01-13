@@ -1,0 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+$lato-font: 'Lato', sans-serif;
+
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond);
+$cormorant-font: 'EB Garamond', serif;
+
+$headline-font: $cormorant-font;
+$nav-font: $cormorant-font;
+$footer-font: $lato-font;
+
+.serif { font-family: $cormorant-font; }
+.sans-serif { font-family: $lato-font; }

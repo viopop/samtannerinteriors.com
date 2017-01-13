@@ -1,0 +1,56 @@
+---
+layout: page
+---
+
+<div class="content container about-body">
+  <div class="row row1">
+    <div class="col-sm-4 col1">
+      <div class="col-image hidden-xs" style="background-image: url('{{ page.images.row1_col1_image }}')"></div>
+      <div class="col-text">
+        <h3>About Sam</h3>
+        <div class="col-image-xs visible-xs-block" style="background-image: url('{{ page.images.row1_col3_image }}')"></div>
+        {{ page.text.col1_text | markdownify }}
+      </div>
+      <div class="col-text visible-xs-block">
+        {{ page.text.col2_text | markdownify }}
+      </div>
+      <div class="col-text visible-xs-block">
+        {{ page.text.col3_text | markdownify }}
+      </div>
+      <a href="/info" class="about-cta _no-underline">
+        Learn About the Firm + Process &rsaquo;
+      </a>
+    </div>
+    <div class="col-sm-4 col2 hidden-xs">
+      <div class="col-text">
+        {{ page.text.col2_text | markdownify }}
+      </div>
+      <div class="col-image" style="background-image: url('{{ page.images.row1_col2_image }}')"></div>
+    </div>
+    <div class="col-sm-4 col3 hidden-xs">
+      <div class="col-image" style="background-image: url('{{ page.images.row1_col3_image }}')"></div>
+      <div class="col-text">
+        {{ page.text.col3_text | markdownify }}
+      </div>
+    </div>
+  </div>
+  <div class="row row2">
+    <div class="col-sm-8 col1 hidden-xs">
+      <div class="col-image" style="background-image: url('{{ page.images.row2_col1_image }}')"></div>
+    </div>
+    <div class="col-sm-4 col2">
+      <div class="row">
+        <div class="col-xs-12 hidden-xs">
+          <a href="https://www.instagram.com/sam_tanner/" class="col-image _no-underline" style="background-image: url('{{ page.images.row2_col2_image }}')"></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-cta">
+          <a href="https://www.instagram.com/sam_tanner/" class="about-cta _no-underline">
+            Behind the Scenes on Instagram &rsaquo;
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

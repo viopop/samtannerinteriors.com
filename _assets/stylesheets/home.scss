@@ -1,0 +1,16 @@
+@import "base";
+
+header.page {
+  .header-home {
+    nav { margin-top: 30px; }
+  }
+}
+.content-home {
+  margin-top: 20px;
+  .main-image { min-height: 500px; background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; }
+  .logo-home { width: 500px; }
+}
+@media #{$xs} {
+  .content-home { margin-top: 0; }
+  .content-home .logo-home { width: 90%; }
+}

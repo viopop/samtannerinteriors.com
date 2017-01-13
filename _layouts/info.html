@@ -1,0 +1,77 @@
+---
+layout: page
+---
+
+<div class="content container info-body">
+  <div class="row row1">
+    <div class="col-sm-7 col1">
+      <div class="col-image" style="background-image: url('{{ page.images.row1_col1_image }}')"></div>
+    </div>
+    <div class="col-sm-5 col2">
+      <div class="info-dash"></div>
+      <div class="col-text">
+        {{ content }}
+      </div>
+      <div class="info-dash"></div>
+    </div>
+  </div>
+  <div class="row row2">
+    <div class="info-process clearfix">
+      <div class="col-xs-12">
+        <h4>&mdash; Our Process &mdash;</h4>
+      </div>
+      <div class="col-sm-2">
+        <h5>1</h5>
+        <div class="process-img"><img src="/uploads/1-consultation.png" alt="Initial Consultation"></div>
+        <h5>{{ page.process.consultation.title }}</h5>
+        {{ page.process.consultation.description | markdownify }}
+      </div>
+      <div class="col-sm-2">
+        <h5>2</h5>
+        <div class="process-img"><img src="/uploads/2-design.png" alt="Design Concept"></div>
+        <h5>{{ page.process.design.title }}</h5>
+        {{ page.process.design.description | markdownify }}
+      </div>
+      <div class="col-sm-2">
+        <h5>3</h5>
+        <div class="process-img"><img src="/uploads/3-drawings.png" alt="Drawings"></div>
+        <h5>{{ page.process.drawings.title }}</h5>
+        {{ page.process.drawings.description | markdownify }}
+      </div>
+      <div class="col-sm-2">
+        <h5>4</h5>
+        <div class="process-img"><img src="/uploads/4-selections.png" alt="Selections"></div>
+        <h5>{{ page.process.selections.title }}</h5>
+        {{ page.process.selections.description | markdownify }}
+      </div>
+      <div class="col-sm-2">
+        <h5>5</h5>
+        <div class="process-img"><img src="/uploads/5-ordering.png" alt="Ordering"></div>
+        <h5>{{ page.process.ordering.title }}</h5>
+        {{ page.process.ordering.description | markdownify }}
+      </div>
+      <div class="col-sm-2">
+        <h5>6</h5>
+        <div class="process-img"><img src="/uploads/6-installation.png" alt="Installation"></div>
+        <h5>{{ page.process.installation.title }}</h5>
+        {{ page.process.installation.description | markdownify }}
+      </div>
+    </div>
+  </div>
+  <div class="row row3">
+    <div class="col-sm-4 col1 info-services">
+      <h3>Services</h3>
+      <dl>
+        {% for service in page.services %}
+          <dt>{{ service.title }}</dt>
+          {% if service.description %}
+            <dd>{{service.description}}</dd>
+          {% endif %}
+        {% endfor %}
+      </dl>
+    </div>
+    <div class="col-sm-8 col2">
+      <div class="col-image" style="background-image: url('{{ page.images.row3_col2_image }}')"></div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,21 @@
+$grid-gutter-width: 5px;
+$screen-sm-min: 600px;
+@import "bootstrap-sass/assets/stylesheets/bootstrap";
+@import "bootstrap-sass/assets/stylesheets/bootstrap/theme";
+
+$fa-font-path: "/assets/fonts";
+@import "font-awesome/css/font-awesome";
+
+$slick-arrow-color: #fff;
+$slick-loader-path: "/assets/images/";
+$slick-font-path: "/assets/fonts/";
+@import "slick-carousel/slick/slick.scss";
+@import "slick-carousel/slick/slick-theme.scss";
+
+@import "media-queries";
+@import "functions";
+@import "colors";
+@import "fonts";
+@import "icons";
+@import "helpers";
+@import "bigslide";

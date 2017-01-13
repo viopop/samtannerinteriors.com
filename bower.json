@@ -1,0 +1,27 @@
+{
+  "name": "samtannerinteriors.com",
+  "authors": [
+    "Brandon Arbini <b@railslab.com>"
+  ],
+  "description": "Samantha Tanner Interiors",
+  "main": "",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "homepage": "samtannerinteriors.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "_assets/components/",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.6",
+    "font-awesome": "^4.6.3",
+    "slick-carousel": "^1.6.0"
+  }
+}
